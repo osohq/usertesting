@@ -14,7 +14,7 @@ bundle install
 ```
 
 ### Codespaces
-[Launch codespace](https://github.com/codespaces/new?machine=basicLinux32gb&repo=632239158&ref=main&devcontainer_path=.devcontainer%2Fruby%2Fdevcontainer.json)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?machine=basicLinux32gb&repo=632239158&ref=main&devcontainer_path=.devcontainer%2Fruby%2Fdevcontainer.json)
 
 ## Launch base application
 ```bash
