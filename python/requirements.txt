@@ -1,0 +1,3 @@
+flask
+oso-cloud
+oso-sdk[flask]

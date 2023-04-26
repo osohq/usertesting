@@ -1,0 +1,22 @@
+{
+	"name": "node",
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
+    "customizations": {
+        "codespaces": {
+            "openFiles": [
+                "node/app.js",
+                "node/README.md"
+            ]
+        },
+        "vscode": {
+            "extensions": [
+                "osohq.oso"
+            ],
+            "settings": {
+                "terminal.integrated.cwd": "node",
+                "oso.polarLanguageServer.validations": "cloud"
+            }
+        }
+    },
+    "postCreateCommand": "cd node && npm install yarn && yarn"
+}

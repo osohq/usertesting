@@ -1,0 +1,22 @@
+{
+	"name": "go",
+	"image": "mcr.microsoft.com/devcontainers/go:0-1.20",
+    "customizations": {
+        "codespaces": {
+            "openFiles": [
+                "go/app.go",
+                "go/README.md"
+            ]
+        },
+        "vscode": {
+            "extensions": [
+                "osohq.oso"
+            ],
+            "settings": {
+                "terminal.integrated.cwd": "go",
+                "oso.polarLanguageServer.validations": "cloud"
+            }
+        }
+    },
+    "postCreateCommand": "cd go && go mod download"
+}

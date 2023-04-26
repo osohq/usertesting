@@ -1,0 +1,21 @@
+{
+	"name": "C# (.NET)",
+	"image": "mcr.microsoft.com/devcontainers/dotnet:0-6.0",
+    "customizations": {
+        "codespaces": {
+            "openFiles": [
+                "dotnet/app/Program.cs",
+                "dotnet/README.md"
+            ]
+        },
+        "vscode": {
+            "extensions": [
+                "osohq.oso"
+            ],
+            "settings": {
+                "terminal.integrated.cwd": "dotnet",
+                "oso.polarLanguageServer.validations": "cloud"
+            }
+        }
+    }
+}
