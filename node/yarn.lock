@@ -2,20 +2,20 @@
 # yarn lockfile v1
 
 
-"@osohq/express@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@osohq/express/-/express-0.3.1.tgz#30804ebe448b1b71341a7aabeee4d43fad6452bb"
-  integrity sha512-DhCqIofLD43OUDrmR8q5uAsw4Y2AbF4BqOLzZWKKFf3atFqGK4sDdUr9h5Vww5Ouol6bmoBFF8sLIVqmneW+OA==
+"@osohq/express@^0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@osohq/express/-/express-0.3.2.tgz#295414ea007c9c06dc1956c2aaa10e5ba7da37a5"
+  integrity sha512-Qmy4+NkVFFd5cb+95IIDfJc3d6PEwDcxNl7iNHrYTrdB90DlGyaA5FVEVbq7JTHwi+yK/yWBb6xhDWYnYr1tcA==
   dependencies:
-    "@osohq/node" "^0.3.1"
+    "@osohq/node" "^0.3.2"
     path-to-regexp "^6.2.1"
 
-"@osohq/node@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@osohq/node/-/node-0.3.1.tgz#8cc3944b2ea5c23675d9cc18a469fb73f601781c"
-  integrity sha512-F7KucG9gm1xVvowNw1viLknHes2NvnzOAukwCtEuTOmxk0+JxCXhu5d4HS0fqorsjAbfX1Hct628L7dj9XLCmQ==
+"@osohq/node@^0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@osohq/node/-/node-0.3.2.tgz#c895af8815595df5752407e47b1e209737ac69f5"
+  integrity sha512-noB5ZcfJcxN2j3qNqTiak6a1uhQG1EMRNhLZ68lZvdyawv7EBjZBamEvPIe/aA72O09AygeCbP/PwYmstNORwA==
   dependencies:
-    oso-cloud "^1.0.2"
+    oso-cloud "^1.0.4"
 
 accepts@~1.3.8:
   version "1.3.8"
@@ -309,6 +309,14 @@ oso-cloud@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/oso-cloud/-/oso-cloud-1.0.2.tgz#41f45f5ce8d6060661758f1dc54141664fa3fc5d"
   integrity sha512-Ptylth1dOYgFnk2E8rbKKQXfW/Q8KpdRFsnuNNdGk4BjJcbaHfv0fkjlTb3aGnGyFE8jNb2R8rQC/PFshv7cfQ==
+  dependencies:
+    fetch-retry-ts "^1.1.25"
+    node-fetch "^2.6.7"
+
+oso-cloud@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/oso-cloud/-/oso-cloud-1.0.4.tgz#9b129332fd136c3405069a91561496e51af6b9f3"
+  integrity sha512-eKQw3khxc+2XS1IX9wHeShXihVkJd/16xWlmz4ngAnf8mom9tucGQ5gLtuXUhO70YL2B/J3sbCHQzn5Yyr+75g==
   dependencies:
     fetch-retry-ts "^1.1.25"
     node-fetch "^2.6.7"
